@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>gallery</title>
+		<script type="text/javascript" src="js/jquery-3.1.0.js" ></script>
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js" ></script>
+		<script type="text/javascript" src="js/mf-pattern/mF_fancy.js" ></script>
+		<link rel="stylesheet" href="js/mf-pattern/mF_fancy.css" />
+		<link rel="stylesheet" href="css/gallery.css" />
+		<script type="text/javascript">
+			myFocus.set({
+			    id:'boxID',//焦点图盒子ID
+			    pattern:'mF_fancy',//风格应用的名称
+			    time:3,//切换时间间隔(秒)
+			    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+			    width:1200,//设置图片区域宽度(像素)
+			    height:500,//设置图片区域高度(像素)
+			    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+			});
+		</script>
+	</head>
+	<body>
+		<section id="gallery">
+			<div class="top">
+				<ul>
+					<a href="index.html#cake1"><li>Chocolate cake</li></a>
+					<a href="index.html#cake2"><li>Toast slices</li></a>
+					<a href="index.html#cake3"><li>Sweet donut</li></a>
+					<a href="index.html#cake4"><li>Ready to baking</li></a>
+					<a href="index.html#feedback"><li>Feedback</li></a>
+					<a href="SiteMap.html"><li>Site map</li></a>
+					<a href="sourceLog.html"><li>Source log</li></a>
+					<a href="gallery.html"><li>Gally</li></a>
+					<a href="image map.html"><li>Canberra’s dessert</li></a>
+					<a href="howTo.html"><li>How to</li></a>
+				</ul>
+			</div>
+			<article>
+				<div id="boxID">
+					<div class="pic">
+						<ul>
+							<li><img src="img/cake1.jpg" /></li>
+							<li><img src="img/cake2.jpg" /></li>
+							<li><img src="img/cake3.jpg" /></li>
+							<li><img src="img/cake4.jpg" /></li>
+							<li><img src="img/cake 5.jpg" /></li>
+							<li><img src="img/cake 6.jpg" /></li>
+							<li><img src="img/cake 7.jpg" /></li>
+						</ul>
+					</div>				
+				</div>
+			</article>
+		</section>
+	</body>
+</html>

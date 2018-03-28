@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>image map</title>
+		<style>
+			*{margin: 0;padding: 0;}
+			section{
+				width: 90%;
+				margin: 40px auto;
+				text-align: center;
+			}
+			h1{
+				font-size: 46px;
+				color: mediumslateblue;
+				margin: 40px auto;
+			}
+			img{
+				width: 500px;
+				position: absolute;
+			}
+			.pic1{
+				top:130px;
+				left: 140px;
+			}
+			.pic3{
+				left: 140px;
+				top:530px;
+				height: 540px;
+			}
+			.pic4{
+				top:690px;
+			}
+		</style>
+	</head>
+	<body>
+		<section id="dessert">
+			<h1>Canberra’s dessert</h1>
+			<img src="img/1.jpg" alt="pic1" usemap="#planetmap1" class="pic1"/>
+			<map name="planetmap1">
+				<area shape="rect" coords="130,140,400,400" href="https://www.patissez.com.au" alt="SiteMap" />
+			</map>
+			<img src="img/2.jpg" alt="pic2" usemap="#planetmap2" class="pic2" />
+			<map name="planetmap2">
+				<area shape="circle" coords="130,140,400,400" href="http://www.kokoblack.com/?home=home" alt="index" />
+			</map>
+			<img src="img/3.jpg" alt="pic3" usemap="#planetmap3" class="pic3"/>
+			<map name="planetmap3">
+				<area shape="rect" coords="130,140,400,400" href="https://www.kimscakeart.com" alt="index" />
+			</map>
+			<img src="img/4.jpg" alt="pic4" usemap="#planetmap4" class="pic4" />
+			<map name="planetmap4">
+				<area shape="rect" coords="130,140,400,400" href="http://www.frugii.com/index.php" alt="index" />
+			</map>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+/*初始化页面*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.map{
+    padding-left: 20px;
+}
+body {
+    width: 92%;
+    margin: 10px auto;
+    background: #F5F5F5;
+    font-size: 18px;
+    font-family: "Times New Roman";
+}
+section{
+    width: 90%;
+    margin: 10px auto;
+}
+.top{
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+    line-height: 100px;
+}
+/*
+ * 小标题
+ */
+.top ul li {
+    display: inline;
+    border-right: 2px solid black;
+    padding: 10px 10px;
+    color: mediumslateblue;
+    font-weight: bold;
+}
+.show1{
+    width: 1050px;
+    height: 450px;
+    background: gainsboro;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: none;
+    padding-top: 20px;
+    line-height: 50px;
+}
+iframe{
+    border: none;width: 1000px;
+    height: 450px;
+}
+.show1 a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/*当鼠标悬浮时*/
+.show1 a:hover{
+    color: #ff6600;
+}
+#content{
+    text-align: center;
+}
