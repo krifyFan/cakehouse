@@ -1,0 +1,151 @@
+﻿/*初始化页面*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #F5F5F5;
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+.logo{
+	display: none;
+}
+
+.intro{
+	display: none;
+}
+/*
+ * 给上中下三个部分规定样式
+ */
+.top{
+	width: 100%;
+}
+.content{
+	width: 90%;
+	margin: 10px auto;
+}
+.footer{
+	width: 90%;
+	margin: 10px auto;
+}
+/*
+ * 头部
+ */
+.top {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	background: #fff;
+	opacity: 0.9;
+	border-radius: 0px 0px 10px 10px;
+}
+/*
+ * 小标题
+ */
+.top ul{
+	margin: 0px;
+}
+.top ul li {
+	display: inline;
+	border: 2px solid pink;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-left: 10px;
+	color: mediumslateblue;
+	font-weight: bold;
+}
+/**
+ * 中心展示图片样式
+ */
+.big {
+	width: 100%;
+}
+.cake1,
+.cake2,
+.cake3,
+.cake4 {
+	border: 1px solid #F5F5F5;
+
+}
+.cake1 img {
+	height: 220px;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+.cake2 img {
+	height: 220px;
+	padding-left: 20px;
+}
+.cake2 h2 {
+	text-align: right;
+}
+.cake3 img {
+	height: 220px;
+	margin-right: 10px;
+}
+.cake4 img {
+	height: 220px;
+	padding-left: 20px;
+}
+.cake4 h2 {
+	text-align: right;
+}
+/**
+ * 尾部样式
+ */
+#footer-po {
+	margin: 10px 0px 10px 10px;
+}
+
+.box div {
+	margin-top: 5px;
+}
+/**
+ * 尾部的邮箱输入框样式
+ */
+.box input {
+	/*width: 1070px;
+	height: 30px;*/
+}
+/**
+ * 尾部的邮箱输入框与其他留言框的公共样式
+ */
+.box input,
+.box textarea {
+	border: none;
+	border: 1px solid grey;
+	border-radius: 10px;
+	outline: none;
+	width: 100%;
+}
+/**
+ * 按钮样式
+ */
+.btn {
+	border: 1px solid #808080;
+	border-radius: 3px;
+	padding: 5px 7px;
+}
+/**
+ * 当鼠标悬浮时按钮样式
+ */
+.btn:hover {
+	border: 1px solid seagreen;
+}
+a{
+	text-decoration: none;
+}
+/*.change{
+	background: #090909;
+	color: #FFFFFF;
+	height: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+}*/
+
+
+
+
