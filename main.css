@@ -47,6 +47,9 @@ body {
 .top ul{
 	margin: 0px;
 }
+.top ul a{
+	text-decoration: none;
+}
 .top ul li {
 	display: inline;
 	border: 2px solid pink;
